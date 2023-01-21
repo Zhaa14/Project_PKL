@@ -8,13 +8,7 @@
 <link rel="icon" type="image/png" href="{{ asset('assets/material-dashboard-master/material-dashboard-master/assets/img/favicon.png')}}">
 
 <title>
-  
-   Material Dashboard 2  by Creative Tim
-  
-
-  
-
-  
+    Halaman Login
 </title>
 
 
@@ -50,7 +44,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+                <div class="card-header center">{{ __('Login') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
@@ -91,7 +85,7 @@
 
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
+                                        {{ __('Register Here !') }}
                                     </a>
                                 @endif
                             </div>

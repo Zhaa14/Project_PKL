@@ -9,12 +9,7 @@
 
 <title>
   
-   Material Dashboard 2  by Creative Tim
-  
-
-  
-
-  
+   Halaman Admin 
 </title>
 
 
